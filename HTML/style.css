@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: rgb(252, 252, 252);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+
+.container .right_side {
+  position: relative;
+  background: #ffffff;
+  padding: 40px;
+}
+
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1cm;
+}
+img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.profileText h2 {
+  color: #fff;
+  font-size: 0.6cm;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.profileText h2 span {
+  font-size: 0.5;
+  font-weight: 300;
+}
+.contact_info {
+  position: relative;
+}
+
+contact_info ul {
+  position: relative;
+}
+contact_info ul li {
+  position: relative;
+  cursor: pointer;
+  margin: 10px 0;
+  list-style: none;
+}
+ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03aaf7;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.5cm;
+}
+
+.left_side span {
+  color: #fff;
+  font-weight: 300;
+}
