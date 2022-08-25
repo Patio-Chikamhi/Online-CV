@@ -216,7 +216,7 @@ ul li .icon {
   font-size: 18px;
   width: 20px;
 }
-/*
+
 .right_side .DownloadBtn {
   margin-top: 60px;
   position: relative;
@@ -231,7 +231,7 @@ ul li .icon {
 .right_side .DownloadBtn a {
   color: #f0f0f0;
 }
-/*
+
 @media (max-width: 1000px) {
   .container {
     margin: 10px;
